@@ -1,0 +1,33 @@
+
+
+{%extends 'main_site/base.html'%}
+{%block nav_class%}
+<nav class="navbar navbar-expand-lg bg-primary " color-on-scroll="400">
+{%endblock nav_class%}
+{%block cart%}
+<div class="container">
+   <p class="category">Cart</p>
+   {%for i in cart%}
+   <div class="row">
+      <div class="col-sm-4">
+         <img src="{{i.file.url}}" width="50%" alt={{i.file}} >
+         <h5>Rupees: {{i.amount}}</h5>
+      </div>
+      <div class="col-sm-4">
+         <a href="{%url 'remove_from_cart' i.id %}">
+         <button type="button" >Remove</button>
+         </a>
+         <a href="{%url 'image_buy_now' i.id %}">
+         <button type="button" >Buy Now</button>
+         </a>
+      </div>
+   </div>
+   {%endfor%}
+   {%if cart|length > 1 %}
+   <a href="{%url 'image_buy_all'  %}">
+   <button type="button" >Buy All</button>
+   </a>
+   {%endif%}
+</div>
+{%endblock cart%}
+

@@ -1,0 +1,25 @@
+{%extends 'main_site/base.html'%}
+{%block nav_class%}
+<nav class="navbar navbar-expand-lg bg-primary  " color-on-scroll="400">
+{%endblock nav_class%}
+{%block hire%}
+<form action='' method='POST'>
+   {%csrf_token%}
+   {{form}}
+   {%if not flag%}
+   <button onclick="goBack()">Cancel</button>
+   {%endif%}
+   <input type='Submit' value='send'>
+</form>
+{%if flag%}
+<button onclick="goBack()">Go Back</button>
+{%endif%}
+<h5>Connect with me at:</h5>
+{{artist.first_name}}
+<script>
+   function goBack() {
+     window.history.back();
+   }
+</script> 
+{%endblock hire%}
+

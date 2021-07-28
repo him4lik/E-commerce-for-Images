@@ -1,0 +1,47 @@
+{%extends 'main_site/base.html'%}
+{%load static%}
+{%block body_class%}
+<body class="login-page sidebar-collapse">
+   {%endblock body_class%}
+   {%block login_page%}
+   <div class="page-header">
+      <div class="page-header-image" style="background-image:url({% static 'custom_auth/img/login.jpg'%})"></div>
+      <div class="content">
+         <div class="container">
+            <div class="col-md-4 ml-auto mr-auto">
+               <div class="card card-login card-plain">
+                  <form class="form" method='POST' action=''>
+                     {% csrf_token%}
+                     <div class="card-header text-center">
+                        <div class="logo-container">
+                           <img src="{% static 'custom_auth/img/now-logo.png' %}" alt="">
+                        </div>
+                     </div>
+                     <div class="card-body">
+                        {{form.non_field_errors}}
+                        {%for field in form%}
+                        <div class="input-group no-border input-lg">
+                           {{field}}
+                        </div>
+                        {%endfor%}
+                     </div>
+                     <div class="card-footer text-center">
+                        <input type='Submit' value='Login' class="btn btn-primary btn-round btn-lg btn-block">
+                        <div class="pull-left">
+                           <h6>
+                              <a href="{% url 'register' %}" class="link">Create Account</a>
+                           </h6>
+                        </div>
+                        <div class="pull-right">
+                           <h6>
+                              <a href="forgot_password" class="link">Forgot Password?</a>
+                           </h6>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   {%endblock login_page%}
