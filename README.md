@@ -50,8 +50,14 @@ EMIAL_POST='smtp_server_port'
 #### User Authentication
 ![imageauth (online-video-cutter com)](https://user-images.githubusercontent.com/75934883/127497696-a0a05cc7-785c-4660-8b69-bc0f2bd754de.gif)
 #### Buying
+![him1](https://user-images.githubusercontent.com/75934883/127549793-30da5709-851d-4beb-ad94-d35fe53a75aa.gif)
 #### Buy All in Cart
+![him2](https://user-images.githubusercontent.com/75934883/127551775-a406b54f-6803-4711-a287-a80053991b17.gif)
 #### Uploading Images
+![him6](https://user-images.githubusercontent.com/75934883/127551082-3683b5de-4499-4d80-b2dc-4b6e27722343.gif)
 #### Hiring
+![him5](https://user-images.githubusercontent.com/75934883/127549644-1490497a-c63f-4092-b758-344f39817192.gif)
 #### Buyer Dashboard
+![him3](https://user-images.githubusercontent.com/75934883/127551068-e5e08221-232c-411d-95e2-a4bf90365464.gif)
 #### seller Dashboard
+![him4](https://user-images.githubusercontent.com/75934883/127549579-fc0244b6-da85-4bad-ba8d-3b643fe40905.gif)
