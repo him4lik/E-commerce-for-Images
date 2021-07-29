@@ -143,3 +143,9 @@ KEY_ID='KEY_IDD'
 SECRET_KEY_ID='SECRET_KEY_ID'
 
 client = razorpay.Client(auth=(KEY_ID,SECRET_KEY_ID))
+
+EMAIL_HOST='smtp_server'
+EMAIL_HOST_USER='username'
+EMAIL_HOST_PASSWORD='Your_password'
+EMAIL_USE_TLS=True
+EMIAL_POST='smtp_server_port'
