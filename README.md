@@ -32,9 +32,18 @@ After this makemigrations and migrate them
 python manage.py makemigrations
 python manage.py migrate
 ```
-#### Email settings
+#### KEY_ID, SECRET_KEY_ID(buy_images/settings.py)
 ```javascript
-
+KEY_ID='your_razoepay_KEY_ID'
+SECRET_KEY_ID='your_Razorpay_SECRET_KEY_ID'
+```
+#### Email settings(buy_images/settings.py)
+```javascript
+EMAIL_HOST='smtp_server_you_are_using'
+EMAIL_HOST_USER='username'
+EMAIL_HOST_PASSWORD='Your_password'
+EMAIL_USE_TLS=True
+EMIAL_POST='smtp_server_port'
 ```
 
 ## In Action
