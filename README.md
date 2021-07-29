@@ -48,8 +48,10 @@ EMIAL_POST='smtp_server_port'
 
 ## In Action
 #### User Authentication
+![imageauth (online-video-cutter com)](https://user-images.githubusercontent.com/75934883/127497696-a0a05cc7-785c-4660-8b69-bc0f2bd754de.gif)
 #### Buying
 #### Buy All in Cart
 #### Uploading Images
 #### Hiring
-#### Dashboard
+#### Buyer Dashboard
+#### seller Dashboard
