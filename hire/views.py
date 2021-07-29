@@ -3,6 +3,7 @@ from custom_auth.models import User
 from django import views
 from .forms import hire_form
 from django.core.mail import send_mail
+from buy_images import settings
 # Create your views here.
 
 class hire_inquiry(views.View):
