@@ -38,9 +38,9 @@ python manage.py migrate
 ```
 
 ## In Action
-### User Authentication
-### Buying
-### Buy All in Cart
-### Uploading Images
-### Hiring
-### Dashboard
+#### User Authentication
+#### Buying
+#### Buy All in Cart
+#### Uploading Images
+#### Hiring
+#### Dashboard
